@@ -1,0 +1,44 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+void genIme(string ime, string prez, string djprez, string grad){
+
+//3slImena+2SlGradaRodj
+string fName,cityName,StarWarsIme;
+fName=ime.substr(0,3);
+cityName=grad.substr(0,2);
+StarWarsIme=fName+cityName;
+//---------------------------------
+
+
+string 1Name, gradrod, finime;
+
+1Name=djprez.substr(0,2);
+gradrod=grad.substr(0,3);
+
+finime=Name+gradrod;
+
+cout<<"Vaše Star Wars ime je:"<<StarWarsIme<<" "<<finime<<endl;
+}
+
+
+int main()
+{
+  string ime,prez,djprez,grad;
+  cout<<"Upišite ime:";
+  cin>>ime;
+  cout<<Upišite prezime:";
+  cin>>prez;
+  cout<<"Upišite majcino djevojačko prezime:";
+  cin>>djprez;
+  cout<<"Upišite grad u kojem ste rođeni:";
+  cin>>grad;
+  cout<<endl;
+  
+
+  genIme(ime, prez, djprez, grad);
+
+
+}
